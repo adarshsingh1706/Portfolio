@@ -11,7 +11,7 @@ const Hero = ()=>{
         alt="HomeBackground"/>
       </div>
       <div className="content">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, iusto?</p>
+        <p>Hello! I am Adarsh</p>
         <h1>Web Developer</h1>
 
         <div>
@@ -20,15 +20,23 @@ const Hero = ()=>{
             Work
           </Link>
 
-          <Link to="/hireme"
+          <Link to="/certificates"
           className="btn btn-light">
+            Certificates
+          </Link>
+
+          <Link to="/resume"
+          className="btn btn-light">
+            Resume
+          </Link>
+
+
+          <Link to="/hireme"
+          className="btn ">
             Hire Me
           </Link>
 
-          <Link to="/contact"
-          className="btn btn-light">
-            Contact
-          </Link>
+          
         </div>
       </div>
     </div>

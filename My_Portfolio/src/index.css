@@ -28,21 +28,21 @@ ul{
   font-size: 16px;
   font-weight: bold;
   color: white;
-  background-color: #3498db;
-  border: none;
+  background-color:#1a0e1a;
   border-radius: 5px;
   cursor: pointer;
   position: relative;
   overflow: hidden;
   transition: all 0.3s ease;
+  width:200px;
 }
 .btn-light{
-  background-color:crimson;
+  background-color:#db9833;
   color:#fff;
 }
 /* Button hover effect */
 .btn:hover {
-  background-color:goldenrod;
+  background-color:#000000;
 }
 
 /* Button ripple effect */
@@ -74,3 +74,13 @@ ul{
 .btn:hover span {
   transform: scale(1.2);
 }
+
+
+@media  screen and(max-width:640px) {
+.btn{
+  display: inline;
+}
+}
+  
+  
+

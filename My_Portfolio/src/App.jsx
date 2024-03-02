@@ -7,6 +7,8 @@ import HireMe from "./routes/HireMe";
 
 import {Route,Routes} from "react-router-dom";
 import './App.css'
+import Certificates from './routes/Certificates';
+import Resume from './routes/Resume';
 
 function App() {
   
@@ -19,6 +21,9 @@ function App() {
       <Route path="/contact" element={<Contact/>}/>
       <Route path="/work" element={<Work/>}/>
       <Route path="/hireme" element={<HireMe/>}/>
+      <Route path="/certificates" element={<Certificates/>}/>
+      <Route path="/resume" element={<Resume/>}/>
+
 
       </Routes> 
 

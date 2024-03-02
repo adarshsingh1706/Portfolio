@@ -1,8 +1,9 @@
 import React from "react";
-const HireMe = () =>{
+
+const Resume = ()=>{
   return(
     <>
-    <div className="msg">
+     <div className="msg">
       <h1>Work in Progress💪, Visit Later.</h1>
       <h1> Till then, explore other options.</h1>
     </div>
@@ -10,4 +11,4 @@ const HireMe = () =>{
   )
 }
 
-export default HireMe;
+export default Resume;

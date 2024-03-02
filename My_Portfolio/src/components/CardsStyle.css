@@ -1,0 +1,105 @@
+.pricing {
+  width: 100%;
+  padding: 6rem 1rem;
+  background: #000;
+}
+
+.card-container {
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+}
+
+.card{
+  border:1px solid #eee;
+  color:#eee;
+  text-align:center;
+  padding:1rem;
+}
+
+.card:hover{
+  background-color:#272626;
+  transition: 0.4s;
+  
+}
+
+.card h4{
+  font-size: 1.4rem;
+  padding:1rem;
+}
+
+.card p{
+  padding:5px 0;
+}
+
+.bar{
+  border-bottom: 1px solid #ff5e3a;
+  width:20%;
+  margin:0.2rem auto;
+  display:block;
+}
+
+.btc{
+  font-size:4rem;
+  font-weight: 600;
+  padding:1rem 0;
+}
+
+.vibrant-btn {
+  display: inline-block;
+  padding: 10px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #ff5e3a;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  transition: color 0.3s, background-color 0.3s, border-color 0.3s;
+}
+
+.vibrant-btn:hover {
+  color: #ff5e3a;
+  background-color: #fff;
+  border-color: #ff5e3a;
+}
+
+.vibrant-btn::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: width 0.3s, height 0.3s, opacity 0.3s;
+  z-index: 0;
+}
+
+.vibrant-btn:hover::before {
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.vibrant-btn span {
+  position: relative;
+  z-index: 1;
+}
+
+
+
+@media screen and (max-width:740px) {
+  .card-container {
+    max-width: 90%;
+    margin: auto;
+    grid-template-columns: 1fr;
+  }
+}
