@@ -11,6 +11,7 @@
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Adjust the minmax values as needed */
   grid-gap: 40px; /* Adjust the grid gap as needed */
   padding-bottom: 5rem;
+  
 }
 
 /* .project-container {
@@ -24,12 +25,8 @@
 
 .project-card {
   background: #0F2027;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
   background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
-  
-  
-
   
   padding: 1.2rem 1rem;
   border: 2px solid #fff;
