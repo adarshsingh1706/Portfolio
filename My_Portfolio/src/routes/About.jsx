@@ -7,7 +7,7 @@ const About = () => {
   return (
     <>
       <Navbar />
-      <Hero2 heading="Adarsh Singh" text=" I am an aspiring Full-Stack Developer
+      <Hero2 heading="Adarsh Singh" text=" I am a Full-Stack Developer
       currently pursuing Btech from Vellore Institute Of Technology, India." />
       <AboutContent/>
       <Footer />
