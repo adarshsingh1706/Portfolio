@@ -12,6 +12,10 @@ import { SiTailwindcss } from "react-icons/si";
 import { TbBrandCpp } from "react-icons/tb";
 import { FaGithub } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
+import { DiMysql } from "react-icons/di";
 
 
 const AboutContent = () => {
@@ -24,7 +28,7 @@ const AboutContent = () => {
       <div className="left">
         <h1>My Skills</h1>
         <h1>
-         <FaHtml5 /> <FaCss3Alt /> <IoLogoJavascript /> <FaReact /> <FaBootstrap /> <SiTailwindcss /> <TbBrandCpp /> <FaGithub /> <FaPython />
+         <FaHtml5 /> <FaCss3Alt /> <IoLogoJavascript /> <FaReact /> <FaBootstrap /> <SiTailwindcss /> <TbBrandCpp /> <FaGithub /> <FaPython /> <FaNodeJs /> <SiExpress /> <SiMongodb /> <DiMysql />
         </h1>
         <Link to="/contact">
           <button className="button">Contact</button>
