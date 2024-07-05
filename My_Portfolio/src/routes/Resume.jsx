@@ -1,12 +1,10 @@
 import React from "react";
-
+import resume from '../assets/resume.png'
+import style from '../components/Resume.module.css'
 const Resume = ()=>{
   return(
     <>
-     <div className="msg">
-      <h1>Work in Progress💪, Visit Later.</h1>
-      <h1> Till then, explore other options.</h1>
-    </div>
+     <img className={style.centeredResume} src={resume}/>
     </>
   )
 }

@@ -1,0 +1,15 @@
+.centeredResume {
+  display: flex;
+  justify-content: center;  /* Centers horizontally */
+  align-items: center;  /* Centers vertically */
+  height: 100vh;  /* Full height of the viewport */
+  background-color: #f4f4f4;  /* Optional: Background color for contrast */
+  margin-left:30%;
+}
+
+.centeredResume img {
+  max-width: 90%;  /* Ensures the image fits within the viewport */
+  max-height: 90%;  /* Ensures the image fits within the viewport */
+  border: 1px solid #ccc;  /* Optional: Adds a border around the image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Optional: Adds a shadow for depth */
+}

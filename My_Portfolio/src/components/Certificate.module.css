@@ -1,0 +1,56 @@
+.certificatesContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.certificate {
+  display: flex;
+  width: 80%;
+  margin: 20px 0;
+}
+
+.certificate.left .certificateImage {
+  order: 1;
+}
+
+.certificate.left .certificateInfo {
+  order: 2;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.certificate.right .certificateImage {
+  order: 2;
+}
+
+.certificate.right .certificateInfo {
+  order: 1;
+  text-align: right;
+  padding-right: 20px;
+  margin-left:28rem;
+}
+
+.certificateImage {
+  width: 400px; /* Set the desired width */
+  height: 300px; /* Set the desired height */
+  overflow: hidden; /* Hide overflow to maintain uniform size */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.certificateImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+.certificateInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  
+}
