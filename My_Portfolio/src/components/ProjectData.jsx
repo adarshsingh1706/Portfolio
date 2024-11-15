@@ -1,14 +1,23 @@
 
-import auth from "../assets/auth.jpg";
+import hero from "../assets/Hero.jpg";
 import chat from "../assets/chat.jpg";
 
 const ProjectData = [
   {
-    imgsrc: auth,
-    title: "Authentication",
-    text: " This project showcases a robust authentication system with user registration, encrypted password storage in MongoDB Atlas, and secure JWT-based access via HTTP-only cookies. The React frontend interacts with the backend API using axios for efficient and secure authentication.",
-    open: "https://authh-wheat.vercel.app/",
-    source: "https://github.com/adarshsingh1706/Auth",
+    imgsrc:
+      "https://images.unsplash.com/photo-1582139329536-e7284fece509?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "Parkit",
+    text: "This Next.js project offers an intelligent parking solution that identify the nearest available parking spots, helping you save time in today’s fast-paced world. With seamless payment integration through Razorpay, the app provides a streamlined experience, from finding the perfect spot to paying in just a few clicks.",
+    open: "https://parkit-mu.vercel.app/",
+    source:
+      "https://github.com/Liquidator04/Parkit",
+  },
+  {
+    imgsrc: hero,
+    title: "RPMS",
+    text: " This innovative Remote Patient Monitoring System (RPMS) currently under development leverages cutting-edge technology to streamline healthcare management. The system enables real-time tracking of patient health metrics, allowing patients to update their medical details effortlessly while granting doctors secure access to monitor their assigned patients. With tailored dashboards for both patients and doctors, RPMS ensures efficient data handling, personalized care, and improved health outcomes—all in a user-friendly interface.",
+    open: "https://remote-patient-monitoring-system-frontend.vercel.app/",
+    source: "https://github.com/adarshsingh1706/Remote-Patient-Monitoring-System",
   },
 
   {
@@ -18,15 +27,7 @@ const ProjectData = [
     open: "https://chatapp-68kn.onrender.com/",
     source: "https://github.com/adarshsingh1706/chatApp",
   },
-  {
-    imgsrc:
-      "https://images.unsplash.com/photo-1582139329536-e7284fece509?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Password Generator",
-    text: "This React project is a Password Generator app that dynamically creates secure passwords based on user preferences.",
-    open: "https://password-generator-sooty-nine.vercel.app/",
-    source:
-      "https://github.com/adarshsingh1706/React-js/tree/main/Projects/passwordGenerator",
-  },
+  
 ];
 
 export default ProjectData;

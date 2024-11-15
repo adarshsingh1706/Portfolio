@@ -1,5 +1,4 @@
 import "./FormStyle.css";
-
 import React, { useRef } from "react";
 
 const Form = ({ sendEmail }) => {
